@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "test": "node src/js/joker.js"
+    "test": "node js/joker.test.js",
+    "format": "prettier -w js/*.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,10 @@
   },
   "homepage": "https://github.com/mathiasg12/joker#readme",
   "dependencies": {
-    "give-me-a-joke": "^0.4.0"
+    "give-me-a-joke": "^0.5.1",
+    "one-liner-joke": "^1.2.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
   }
 }
