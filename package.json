@@ -1,14 +1,14 @@
 {
   "name": "joker",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "application that tells jokes",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
     "test": "node js/joker.test.js",
     "format": "prettier -w js/*.js",
-    "lint":"eslint js/*.js",
-    "lint-fix":"eslint js/*.js --cache --fix"
+    "lint": "eslint js/*.js",
+    "lint-fix": "eslint js/*.js --cache --fix"
   },
   "repository": {
     "type": "git",
