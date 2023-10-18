@@ -1,3 +1,4 @@
 # npm folders to ignore
 # npm
 node_modules/
+.eslintcache
