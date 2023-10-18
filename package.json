@@ -1,6 +1,6 @@
 {
   "name": "joker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "application that tells jokes",
   "main": "src/index.js",
   "type": "module",
@@ -38,9 +38,11 @@
     "*.js": [
       "eslint --cache --fix",
       "prettier --write"
-    ],"*.html":[
+    ],
+    "*.html": [
       "prettier --write"
-    ],"*.scss":[
+    ],
+    "*.scss": [
       "prettier --write"
     ]
   }
